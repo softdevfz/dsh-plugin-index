@@ -1,0 +1,14 @@
+{
+  "name": "clickwise-mcp",
+  "version": "0.1.0",
+  "description": "Find affiliate programs, deals, and tracked links through the public Clickwise MCP server.",
+  "license": "MIT",
+  "engines": {
+    "dsh": "*"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

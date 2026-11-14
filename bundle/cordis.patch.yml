@@ -1,0 +1,7 @@
+- insert:
+    - id: clickwise-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: clickwise
+        transport: streamable-http
+        url: https://partners.clickwise.net/api/v1/mcp
