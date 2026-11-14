@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Clickwise index for DeepSeek Harness"
+  },
+  "plugins": [
+    {
+      "name": "clickwise-mcp",
+      "title": {
+        "en": "Clickwise affiliate programs and deals"
+      },
+      "description": {
+        "en": "Find affiliate programs, deals, and tracked links through the public Clickwise MCP server."
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794655766,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/softdevfz/dsh-plugin-index",
+            "commit": "6ea07cbb161bdb7be4e7211c77aa9860452418cb",
+            "path": "bundle"
+          },
+          "engines": {
+            "dsh": "*"
+          }
+        }
+      ]
+    }
+  ]
+}
